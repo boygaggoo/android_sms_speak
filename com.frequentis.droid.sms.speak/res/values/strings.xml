@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS Speak</string>
+    <string name="KEY_PREF_SPEAK_ENABLED">speak_enabled</string>
+    <string name="KEY_PREF_CONNECTION_ENABLED">connection_enabled</string>
+    <string name="KEY_PREF_BT_DEVICES">bt_devices</string>
+    <string name="KEY_PREF_WIFI_NETWORKS">wifi_networks</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- This file is /res/xml/flightoptions.xml -->
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="sms_speak_preference"
+	android:title="SMS Speak Activiation"
+	android:summary="Summary">
+
+	<CheckBoxPreference
+		android:key="@string/KEY_PREF_SPEAK_ENABLED"
+		android:title="SMS Speak enabled"
+		android:summary="Select to activate SMS Speak" 
+		android:defaultValue="false" />
+
+	<CheckBoxPreference
+		android:key="@string/KEY_PREF_CONNECTION_ENABLED"
+		android:title="Connection available"
+		android:summary="Activate when BT and/or Wifi is connected"
+		android:defaultValue="true" />
+
+	<com.frequentis.droid.sms.speak.MultiChoiceListPreference
+		android:key="@string/KEY_PREF_BT_DEVICES"
+		android:title="Bluetooth Devices"
+		android:summary="Activate for selected Bluetooth devices" />
+
+	<com.frequentis.droid.sms.speak.MultiChoiceListPreference
+		android:key="@string/KEY_PREF_WIFI_NETWORKS"
+		android:title="Wifi Networks"
+		android:summary="Activate for selected Wifi networks" />
+
+</PreferenceScreen>
